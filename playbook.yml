@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  vars_files:
+          - secret.yml
+  tasks:
+          - setup:
+            register: s
+          - debug:
+                  var: s
+          - debug:
+                  var: user
+...
