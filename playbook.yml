@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: win
   vars_files:
           - secret.yml
   tasks:
